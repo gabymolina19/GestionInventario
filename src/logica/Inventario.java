@@ -16,30 +16,28 @@ public class Inventario {
     //String ruta = "src/resource/productos.txt";//con esta ruta dinamica, hay veces generar lios por el src, el punto es como la raiz, me interesa del punto en adelante
 
 
-    public void leerArchivo()throws IOException{
-
-        try(FileReader fr = new FileReader(ruta)){//Lee el archivo
-            BufferedReader br = new BufferedReader(fr);//lee la información del archivo BufferedReader
+    public void leerArchivo() throws IOException {
+        productos.clear(); // Limpia la lista antes de leer el archivo nuevamente.
+        try (FileReader fr = new FileReader(ruta)) {
+            BufferedReader br = new BufferedReader(fr);
             String linea;
 
-            while ((linea= br.readLine())!=null){
-                //System.out.println(linea);
-                linea = linea.trim();//Para eliminar espacios en blanco al principio y final
-                if (linea.isEmpty()){//Para ignorar lineas vacias
-                    continue;
-                }
+            while ((linea = br.readLine()) != null) {
+                linea = linea.trim();
+                if (linea.isEmpty()) continue;
 
                 String[] datos = linea.split(",");
 
-                int idProducto=Integer.parseInt(datos[0]);
-                String nombreProducto=datos[1];
-                String categoria=datos[2];
-                double precio=Double.parseDouble(datos[3]);
-                int cantidadDisponible=Integer.parseInt(datos[4]);
-                productos.add(new Producto(idProducto,nombreProducto,categoria,precio,cantidadDisponible));
+                int idProducto = Integer.parseInt(datos[0]);
+                String nombreProducto = datos[1];
+                String categoria = datos[2];
+                double precio = Double.parseDouble(datos[3]);
+                int cantidadDisponible = Integer.parseInt(datos[4]);
+
+                productos.add(new Producto(idProducto, nombreProducto, categoria, precio, cantidadDisponible));
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("Error al leer el archivo: " + e.getMessage(), e);
         }
     }
 
