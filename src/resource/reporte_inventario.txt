@@ -1,0 +1,26 @@
+-----------------------Reporte Inventario
+-----------------------
+ID Producto: 8, Nombre producto: mango tomy, Categoria producto: 1500, Precio: 100.0, Cantidad Disponible: 10, Valor Total: $ 1000.0
+ID Producto: 8, Nombre producto: mango, Categoria producto: fruta, Precio: 1000.0, Cantidad Disponible: 200, Valor Total: $ 200000.0
+ID Producto: 3, Nombre producto: pera, Categoria producto: fruta, Precio: 2000.0, Cantidad Disponible: 10, Valor Total: $ 20000.0
+ID Producto: 1, Nombre producto: manzanita, Categoria producto: frutita, Precio: 500.0, Cantidad Disponible: 10, Valor Total: $ 5000.0
+ID Producto: 2, Nombre producto: frijolito, Categoria producto: prueba, Precio: 100.0, Cantidad Disponible: 100, Valor Total: $ 10000.0
+ID Producto: 3, Nombre producto: mango, Categoria producto: fruta, Precio: 100.0, Cantidad Disponible: 10, Valor Total: $ 1000.0
+ID Producto: 8, Nombre producto: mango, Categoria producto: fruta, Precio: 1000.0, Cantidad Disponible: 200, Valor Total: $ 200000.0
+ID Producto: 9, Nombre producto: pera, Categoria producto: fruta, Precio: 3000.0, Cantidad Disponible: 200, Valor Total: $ 600000.0
+ID Producto: 11, Nombre producto: pescadito, Categoria producto: proteina, Precio: 3000.0, Cantidad Disponible: 19, Valor Total: $ 57000.0
+ID Producto: 1, Nombre producto: manzanita, Categoria producto: frutita, Precio: 500.0, Cantidad Disponible: 10, Valor Total: $ 5000.0
+ID Producto: 2, Nombre producto: frijolito, Categoria producto: prueba, Precio: 100.0, Cantidad Disponible: 100, Valor Total: $ 10000.0
+ID Producto: 3, Nombre producto: mango, Categoria producto: fruta, Precio: 100.0, Cantidad Disponible: 10, Valor Total: $ 1000.0
+ID Producto: 4, Nombre producto: fresas, Categoria producto: fruta, Precio: 1500.0, Cantidad Disponible: 100, Valor Total: $ 150000.0
+ID Producto: 8, Nombre producto: mango, Categoria producto: fruta, Precio: 1000.0, Cantidad Disponible: 200, Valor Total: $ 200000.0
+ID Producto: 3, Nombre producto: pera, Categoria producto: fruta, Precio: 2000.0, Cantidad Disponible: 10, Valor Total: $ 20000.0
+ID Producto: 9, Nombre producto: pera, Categoria producto: fruta, Precio: 3000.0, Cantidad Disponible: 200, Valor Total: $ 600000.0
+ID Producto: 11, Nombre producto: pescadito, Categoria producto: proteina, Precio: 3000.0, Cantidad Disponible: 19, Valor Total: $ 57000.0
+ID Producto: 1, Nombre producto: manzanita, Categoria producto: frutita, Precio: 500.0, Cantidad Disponible: 10, Valor Total: $ 5000.0
+ID Producto: 2, Nombre producto: frijolito, Categoria producto: prueba, Precio: 100.0, Cantidad Disponible: 100, Valor Total: $ 10000.0
+ID Producto: 3, Nombre producto: mango, Categoria producto: fruta, Precio: 100.0, Cantidad Disponible: 10, Valor Total: $ 1000.0
+ID Producto: 8, Nombre producto: guama, Categoria producto: fruta, Precio: 100.0, Cantidad Disponible: 10, Valor Total: $ 1000.0
+
+-------------------------------
+Valor total inventario: $2154000.0
